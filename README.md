@@ -10,12 +10,17 @@ The dataset used for this analysis is the Tabula Muris project, which includes s
 ## Dimensionality Reduction and Clustering
 - **Principal Component Analysis (PCA)**: Used for initial reduction of high-dimensional gene expression data to identify main sources of variation between liver and pancreas cells.
 - **UMAP**: Applied for enhanced visualization of cell clusters, highlighting finer tissue-specific distinctions.
+![UMAP tissue clustering](UMAP_Tissue.png)
+![UMAP subtissue clustering](UMAP_Subtissue.png)
 - **K-means Clustering**: Selected to group cells into distinct clusters based on gene expression profiles, effectively separating liver and pancreas populations and their subtissues.
+![KMeans clustering](KMeans_Clustering.png)
 ## Differential Expression Analysis 
 A comparative analysis was performed to identify genes significantly upregulated or downregulated in liver vs. pancreas cell populations. Genes analyzed include ALB, TTR (liver-associated), INS1, and GCG (pancreas-associated), among others.
 ## Key Findings
 - Liver cells show strong expression of metabolic genes such as ALB and TTR.
+![TTR Jitterplot](TTR_Jitterplot.png)
 - Pancreas cells exhibit high expression of hormone-related genes, including INS1 and GCG.
+![INS1 Jitterplot](INS1_Jitterplot.png)
 - Clustering and dimensionality reduction reveal distinct cell populations corresponding to liver and pancreas tissues and their subtissues.
 - The results highlight the complementary metabolic and endocrine roles of liver and pancreas cells.
 ## Future Directions
